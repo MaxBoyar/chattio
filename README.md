@@ -32,22 +32,17 @@ cd chat-client
 
 in chat-client:
 ```
-cd chat-client
-```
-
-```
 npm run-dev
 ```
 
-
-
-in chat-client:
 ```
-$ npm run-dev
+cd chat-server
 ```
 
-
-
+in chat-server:
+```
+npm run-dev
+```
 
 ## Usage example ##
 Input:
