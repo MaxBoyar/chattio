@@ -21,13 +21,18 @@
 
 [//]: # (    npm run dev)
 
-# Beautiful-readme #
+# Chattio #
+Simple chat app to chat with your friends
 
-Beautiful-readme converts a single readme file into a simple and modern [Bootstrap](http://getbootstrap.com/)-powered static website. Simplicity ([KISS](http://en.wikipedia.org/wiki/KISS_principle)) and clarity are the major design goals of beautiful-readme. For more feature-rich solutions, I recommend having a look at [Sphinx](http://sphinx-doc.org/) and [Beautiful docs](http://beautifuldocs.com/).
+## Installation ##
+Beautiful-readme releases are hosted [on PyPI](https://pypi.python.org/pypi/beautiful-readme). Installation with pip is recommended:
 
-## Demo ##
-[Here](http://gehrcke.de/beautiful-readme) (built from *this* readme) and
-[here](http://gehrcke.de/timegaps) (built from a readme for another project).
+chat-client:
+```
+$ npm run-deve
+```
+
+
 
 
 ## Usage example ##
