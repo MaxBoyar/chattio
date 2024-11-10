@@ -1,0 +1,92 @@
+/* Reset some default browser styling */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a root font size */
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+/* Set default styles for body */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+
+    /* Custom styling for darken antd tooltip */
+    .ant-tooltip-inner {
+        color: #ffffff !important;
+        background-color: #111218 !important;
+    }
+
+    .ant-select-dropdown {
+        background-color: #23252d !important;
+        color: #fff !important;
+    }
+    .ant-select-item-option-active {
+        background-color: #323541 !important;
+    }
+    .ant-select-item-option-selected {
+        background-color: #555 !important;
+
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: grey;
+        border-radius: 10px;
+    }
+}
+
+/* Remove list styling */
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+/* Link styles */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Basic container for centering */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
