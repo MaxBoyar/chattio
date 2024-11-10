@@ -27,17 +27,19 @@ Simple chat app to chat with your friends
 ## Installation ##
 Beautiful-readme releases are hosted [on PyPI](https://pypi.python.org/pypi/beautiful-readme). Installation with pip is recommended:
 ```
-$ cd chat-client
+cd chat-client
 ```
 
 in chat-client:
 ```
-$ npm run-dev
+cd chat-client
 ```
 
 ```
-$ cd chat-server
+npm run-dev
 ```
+
+
 
 in chat-client:
 ```
