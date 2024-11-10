@@ -3,7 +3,15 @@ Simple chat app to chat with your friends
 
 
 ## Installation ##
-follow this commands:
+
+### DB Setup ###
+```
+brew tap mongodb/brew
+brew install mongodb-community
+brew services start mongodb-community
+```
+
+### Run Project ###
 
 in chat-client:
 ```
