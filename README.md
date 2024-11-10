@@ -1,55 +1,13 @@
-[//]: # (prerequisites commands:)
-
-[//]: # (    npm i)
-
-[//]: # (    for mac users:)
-
-[//]: # (        brew tap mongodb/brew*)
-
-[//]: # (        brew install mongodb-community*)
-
-[//]: # (        brew services start mongodb-community*)
-
-[//]: # (    )
-[//]: # ()
-[//]: # (in chat client folder run this:)
-
-[//]: # (    npm run dev)
-
-[//]: # ()
-[//]: # (in chat server folder run this:)
-
-[//]: # (    npm run dev)
-
 # Chattio #
 Simple chat app to chat with your friends
 
+
 ## Installation ##
-Beautiful-readme releases are hosted [on PyPI](https://pypi.python.org/pypi/beautiful-readme). Installation with pip is recommended:
+follow this commands:
 
 in chat-client:
 ```
 npm run-dev
-```
-
-in chat-server:
-```
-npm run-dev
-```
-
-
-
-
-
-
-
-
-
-
-
-
-```
-cd chat-server
 ```
 
 in chat-server:
